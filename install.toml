@@ -1,0 +1,23 @@
+# For future use
+[package]
+name = "cross_convert"
+version = "0.1.0"
+
+[source]
+url = "https://github.com/iktrnch/cross-convert/releases/download/0.1.0/CrossConvert.exe"
+checksum = "..."
+
+[install]
+target = "{programfiles}\\CrossConvert"
+
+[hooks]
+pre_install = ""
+post_install = ""
+
+[[registry]]
+path = "HKCR:*\\shell\\CrossConvert"
+default = "CrossConvert"
+
+[[registry]]
+path = "HKCR:*\\shell\\CrossConvert\\command"
+default = '"{target}\\cross_convert.exe" -p "%1"'

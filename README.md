@@ -1,4 +1,4 @@
-# image-converter
+# cross-convert
 ### Allows you to convert between image files extentions.
 Have you aver downloaded a picture from the internet in some weird fromat, like `.webp`? What's next? Typical way of dealing with it involves a visit to an image conversion web-site, with lots of ads and a queue.
 On average process of converting the image this traditional way takes up to 2 minutes.
